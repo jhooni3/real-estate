@@ -1,7 +1,7 @@
 import requests
 
 def send_msg_to_slack(text):
-    url = "<hook_url>"
+    url = "https://hooks.slack.com/services/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"
     payload = "{\n\t\"text\": \""+text+"\"}"
     headers = {
         'content-type': "application/json",
